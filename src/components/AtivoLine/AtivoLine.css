@@ -1,0 +1,81 @@
+.ativoLine-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    height: 60px;
+}
+
+.ativo-info-box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 40%;
+}
+
+.ativo-info-box img{
+    width: 28px;
+    height: 28px;
+}
+
+.ativo-symbol{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ativo-name{
+    font-size: 14px;
+    font-weight: 400;
+    color: #848E9C;
+}
+
+.ativo-price-box{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ativo-price-box p{
+    text-align: right;
+}
+
+.ativo-price{
+    color: #EAECEF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ativo-valorization-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.ativo-valorization-box p{
+    text-align: right;
+}
+
+.ativo-valorization{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media (max-width: 500px){
+    .ativo-info-box p{
+        padding: 5px;
+    }
+    .ativo-symbol{
+        font-size: 14px
+    }
+    .ativo-name{
+        font-size: 14px;
+    }
+    .ativo-price{
+        font-size: 14px;
+    }
+    .ativo-valorization{
+        font-size: 14px;
+    }
+}
