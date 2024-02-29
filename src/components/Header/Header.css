@@ -66,4 +66,10 @@ nav{
     }
 }
 
+@media (max-width: 400px){
+    .link{
+        margin: 0;
+    }
+}
+
 
