@@ -178,6 +178,9 @@
   }
 
   @media (max-width: 650px) {
+    .home-box1{
+        width: 80%;
+    }
     .title-box1{
         width: 70%;
     }
