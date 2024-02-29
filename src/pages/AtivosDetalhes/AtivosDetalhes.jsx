@@ -75,8 +75,8 @@ export const AtivosDetalhes = ()=>{
                 <p>Rank: {data.rank}</p>
                 <p>Price: ${parseFloat(data.price.toFixed(2))}</p>
                 <p >Price Change (1h): <span style={{color: color1h}}>{valorization1h}</span></p>
-                <p >Price Change (1d): <span style={{color: color1d}}>{valorization1h}</span></p>
-                <p >Price Change (1w): <span style={{color: color1w}}>{valorization1h}</span></p>
+                <p >Price Change (1d): <span style={{color: color1d}}>{valorization1d}</span></p>
+                <p >Price Change (1w): <span style={{color: color1w}}>{valorization1w}</span></p>
                 <p>Volume: ${parseFloat(data.volume.toFixed(2))}</p>
                 <p>Market Cap: ${parseFloat(data.marketCap.toFixed(2))}</p>
                 <p>Available Supply: {data.availableSupply} {data.symbol}</p>
